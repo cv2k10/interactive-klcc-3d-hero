@@ -7,7 +7,7 @@ import {
 } from "./textures";
 
 /* ------------------------------------------------------------------ */
-/*  Eight-pointed star footprint (Rub el Hizb) — the towers' plan      */
+/*  Eight-pointed star footprint (Rub el Hizb): the towers' plan      */
 /* ------------------------------------------------------------------ */
 function starShape(scale: number): THREE.Shape {
   const R = 11 * scale;
@@ -53,7 +53,7 @@ const facadeUV: NonNullable<THREE.ExtrudeGeometryOptions["UVGenerator"]> = {
 };
 
 /* ------------------------------------------------------------------ */
-/*  Tower — stacked star-shaped setbacks + crown + spire               */
+/*  Tower: stacked star-shaped setbacks + crown + spire               */
 /* ------------------------------------------------------------------ */
 const TIERS: Array<[height: number, scale: number]> = [
   [48, 1.0],

@@ -8,7 +8,7 @@ export interface CamKey {
 }
 
 /**
- * Scroll choreography — a guided cinematic orbit around the towers:
+ * Scroll choreography: a guided cinematic orbit around the towers:
  * 0.00  wide establishing shot          0.52  worm's-eye between the towers
  * 0.16  dolly toward the skybridge      0.70  crown & spire close-up
  * 0.34  skybridge fly-by                0.86  frontal elevation

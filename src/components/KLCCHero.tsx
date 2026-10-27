@@ -22,7 +22,7 @@ const SPECS: Spec[] = [
     unit: "M",
     label: "HEIGHT",
     title: "The tallest twin towers on Earth",
-    desc: "Rising 451.9 metres above street level, the towers held the world's-tallest title from 1998 to 2004 — and remain the tallest twin structure ever built.",
+    desc: "Rising 451.9 metres above street level, the towers held the world's-tallest title from 1998 to 2004, and remain the tallest twin structure ever built.",
   },
   {
     index: "02",
@@ -30,7 +30,7 @@ const SPECS: Spec[] = [
     unit: "FLOORS",
     label: "STOREYS",
     title: "88 storeys above the city",
-    desc: "Each tower climbs 88 floors — plus five basement levels — served by 29 double-decker high-speed lifts sweeping through a stainless-steel skeleton.",
+    desc: "Each tower climbs 88 floors, plus five basement levels, served by 29 double-decker high-speed lifts sweeping through a stainless-steel skeleton.",
   },
   {
     index: "03",
@@ -38,7 +38,7 @@ const SPECS: Spec[] = [
     unit: "LEVELS",
     label: "SKYBRIDGE",
     title: "The double-decker skybridge",
-    desc: "A 58-metre two-storey bridge links the towers 170 metres above the ground — the highest double-deck skybridge in the world, resting on sweeping arch supports.",
+    desc: "A 58-metre two-storey bridge links the towers 170 metres above the ground: the highest double-deck skybridge in the world, resting on sweeping arch supports.",
   },
   {
     index: "04",
@@ -46,7 +46,7 @@ const SPECS: Spec[] = [
     unit: "M",
     label: "SPIRE",
     title: "Crowning stainless masts",
-    desc: "Each tower is crowned by a 73.5-metre spire — a tapered mast and aviation beacon that draws the silhouette to its full pinnacle height.",
+    desc: "Each tower is crowned by a 73.5-metre spire, a tapered mast and aviation beacon that draws the silhouette to its full pinnacle height.",
   },
   {
     index: "05",
@@ -54,7 +54,7 @@ const SPECS: Spec[] = [
     unit: "POINTS",
     label: "GEOMETRY",
     title: "The eight-pointed star",
-    desc: "The floor plan is a Rub el Hizb — two interlocking squares forming an eight-pointed star, Islamic geometry poured into a modern icon of steel and glass.",
+    desc: "The floor plan is a Rub el Hizb: two interlocking squares forming an eight-pointed star, Islamic geometry poured into a modern icon of steel and glass.",
   },
 ];
 
@@ -224,7 +224,7 @@ export default function KLCCHero() {
             style={{ animationDelay: "0.15s" }}
           >
             <span className="h-px w-8 md:w-14 bg-gold/60" />
-            KUALA LUMPUR CITY CENTRE — MALAYSIA
+            KUALA LUMPUR CITY CENTRE · MALAYSIA
           </p>
 
           <h1
@@ -242,7 +242,7 @@ export default function KLCCHero() {
             Rising{" "}
             <span className="text-gold-soft font-medium">451.9 metres</span> over
             Kuala Lumpur, the Petronas Towers are the tallest twin towers ever
-            built — a gleaming eight-pointed star of stainless steel, glass and
+            built: a gleaming eight-pointed star of stainless steel, glass and
             Islamic geometry. Scroll to orbit the icon.
           </p>
 
@@ -250,7 +250,7 @@ export default function KLCCHero() {
             className="animate-fade-up mt-7 flex flex-wrap gap-2 md:gap-3"
             style={{ animationDelay: "0.6s" }}
           >
-            {["451.9 M — HEIGHT", "88 FLOORS", "SKYBRIDGE · L41–42", "8-POINT STAR PLAN"].map(
+            {["451.9 M · HEIGHT", "88 FLOORS", "SKYBRIDGE · L41–42", "8-POINT STAR PLAN"].map(
               (c) => (
                 <span
                   key={c}
